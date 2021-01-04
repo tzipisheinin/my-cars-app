@@ -9,8 +9,16 @@ import Vue from 'vue'
 import Vuetify from 'vuetify'
 import 'vuetify/dist/vuetify.min.css'
 import App from '../app.vue'
+import Cars from './components/cars.vue'
+import Car from './components/car.vue';
 
 Vue.use(Vuetify)
+
+const routes = {
+  '/': App,
+  '/cars-list': Cars,
+  '/new-car/:id': Car 
+}
 
 document.addEventListener('DOMContentLoaded', () => {
   const app = new Vue({

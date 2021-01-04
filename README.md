@@ -3,22 +3,20 @@
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
-Things you may want to cover:
+Things you may need:
 
-* Ruby version
+* First you should clone the git repository
 
-* System dependencies
+* Ruby version should be greater than 4
 
-* Configuration
+* sqlite3 version should be greater than 3
 
-* Database creation
+* Go into the app folder - `cd my_cars_app`
 
-* Database initialization
+* run bundle install
 
-* How to run the test suite
+* Build the DB - rake db:migrate
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* run both servers in the app folder
+    * `rails server`
+    * `bin/webpack-dev-server`
