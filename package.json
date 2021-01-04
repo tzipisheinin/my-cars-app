@@ -1,0 +1,14 @@
+{
+  "name": "my_cars_app",
+  "private": true,
+  "dependencies": {
+    "@rails/webpacker": "4.3.0",
+    "vue": "^2.6.12",
+    "vue-loader": "^15.9.6",
+    "vue-template-compiler": "^2.6.12",
+    "vuetify": "^2.4.0"
+  },
+  "devDependencies": {
+    "webpack-dev-server": "^3.11.1"
+  }
+}
